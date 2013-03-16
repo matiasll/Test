@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="fbb9f9d8-158c-4929-8f57-99b7a4c30f5a" name="user22@USER22-PC 2013-03-15 16:53:03" runUser="user22-PC\user22" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="58f6ab7d-9045-4d6a-86a5-beca11fa358c">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="user22_USER22-PC 2013-03-15 16_53_03">
+      <DeploymentItem filename="c:\users\user22\documents\visual studio 2010\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-03-15T16:53:03.4891823-03:00" queuing="2013-03-15T16:53:03.5501858-03:00" start="2013-03-15T16:53:03.5771873-03:00" finish="2013-03-15T16:53:03.9002058-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestConvert1" storage="c:\users\user22\documents\visual studio 2010\projects\classlibrary1\testproject1\bin\debug\testproject1.dll" id="e8761801-f534-73cc-0499-fd2bffebba56">
+      <Execution id="2345c750-8d46-4b56-bd44-74ceeaa87b11" />
+      <TestMethod codeBase="c:/users/user22/documents/visual studio 2010/Projects/ClassLibrary1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestConvert1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e8761801-f534-73cc-0499-fd2bffebba56" executionId="2345c750-8d46-4b56-bd44-74ceeaa87b11" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2345c750-8d46-4b56-bd44-74ceeaa87b11" testId="e8761801-f534-73cc-0499-fd2bffebba56" testName="TestConvert1" computerName="USER22-PC" duration="00:00:00.0416043" startTime="2013-03-15T16:53:03.5951883-03:00" endTime="2013-03-15T16:53:03.8812047-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2345c750-8d46-4b56-bd44-74ceeaa87b11">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   en TestProject1.UnitTest1.TestConvert1() en c:\users\user22\documents\visual studio 2010\Projects\ClassLibrary1\TestProject1\UnitTest1.cs:línea 19
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

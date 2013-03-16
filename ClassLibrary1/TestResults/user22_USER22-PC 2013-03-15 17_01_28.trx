@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a7bd5cdb-7e0d-4301-9da9-475bda9adf0f" name="user22@USER22-PC 2013-03-15 17:01:28" runUser="user22-PC\user22" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="58f6ab7d-9045-4d6a-86a5-beca11fa358c">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="c:\users\user22\documents\visual studio 2010\Projects\ClassLibrary1\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="user22_USER22-PC 2013-03-15 17_01_28">
+      <DeploymentItem filename="c:\users\user22\documents\visual studio 2010\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-03-15T17:01:28.5880723-03:00" queuing="2013-03-15T17:01:29.6421326-03:00" start="2013-03-15T17:01:29.8401439-03:00" finish="2013-03-15T17:01:42.6118744-03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestConvert5" storage="c:\users\user22\documents\visual studio 2010\projects\classlibrary1\testproject1\bin\debug\testproject1.dll" id="18012c3c-22fd-852e-cec8-a03d0752798e">
+      <Execution id="01410907-54a9-467d-87c5-d2b503824467" />
+      <TestMethod codeBase="c:/users/user22/documents/visual studio 2010/Projects/ClassLibrary1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestConvert5" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="18012c3c-22fd-852e-cec8-a03d0752798e" executionId="01410907-54a9-467d-87c5-d2b503824467" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="01410907-54a9-467d-87c5-d2b503824467" testId="18012c3c-22fd-852e-cec8-a03d0752798e" testName="TestConvert5" computerName="USER22-PC" duration="00:00:11.4000101" startTime="2013-03-15T17:01:29.9951527-03:00" endTime="2013-03-15T17:01:42.5228693-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="01410907-54a9-467d-87c5-d2b503824467">
+    </UnitTestResult>
+  </Results>
+</TestRun>

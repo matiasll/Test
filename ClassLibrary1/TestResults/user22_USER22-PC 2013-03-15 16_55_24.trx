@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9b9e89fc-ed6c-4e37-a0a0-f65f0ff994ca" name="user22@USER22-PC 2013-03-15 16:55:24" runUser="user22-PC\user22" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="58f6ab7d-9045-4d6a-86a5-beca11fa358c">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="user22_USER22-PC 2013-03-15 16_55_24">
+      <DeploymentItem filename="c:\users\user22\documents\visual studio 2010\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-03-15T16:55:24.1862297-03:00" queuing="2013-03-15T16:55:24.3952416-03:00" start="2013-03-15T16:55:24.4362440-03:00" finish="2013-03-15T16:55:24.8812694-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" passed="2" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestConvert4" storage="c:\users\user22\documents\visual studio 2010\projects\classlibrary1\testproject1\bin\debug\testproject1.dll" id="8517bb1b-dafd-0f1c-8c9c-395e56cdc110">
+      <Execution id="5ce94ea9-60fb-4f52-b655-1b31b38d36cc" />
+      <TestMethod codeBase="c:/users/user22/documents/visual studio 2010/Projects/ClassLibrary1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestConvert4" />
+    </UnitTest>
+    <UnitTest name="TestConvert5" storage="c:\users\user22\documents\visual studio 2010\projects\classlibrary1\testproject1\bin\debug\testproject1.dll" id="18012c3c-22fd-852e-cec8-a03d0752798e">
+      <Execution id="adef0319-8cbd-41e7-a07e-64cda954d856" />
+      <TestMethod codeBase="c:/users/user22/documents/visual studio 2010/Projects/ClassLibrary1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestConvert5" />
+    </UnitTest>
+    <UnitTest name="TestConvert1" storage="c:\users\user22\documents\visual studio 2010\projects\classlibrary1\testproject1\bin\debug\testproject1.dll" id="e8761801-f534-73cc-0499-fd2bffebba56">
+      <Execution id="9effa7a4-909a-4fb4-acc0-f9533941d190" />
+      <TestMethod codeBase="c:/users/user22/documents/visual studio 2010/Projects/ClassLibrary1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestConvert1" />
+    </UnitTest>
+    <UnitTest name="TestConvert2" storage="c:\users\user22\documents\visual studio 2010\projects\classlibrary1\testproject1\bin\debug\testproject1.dll" id="a834ec8a-2c68-3b32-a281-2c8d6d5f035b">
+      <Execution id="c3a9b983-9f24-4dcf-bffc-9c0deff4cc23" />
+      <TestMethod codeBase="c:/users/user22/documents/visual studio 2010/Projects/ClassLibrary1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestConvert2" />
+    </UnitTest>
+    <UnitTest name="TestConvert3" storage="c:\users\user22\documents\visual studio 2010\projects\classlibrary1\testproject1\bin\debug\testproject1.dll" id="04c38faf-ded8-ae35-63cc-dfb10a7b70b3">
+      <Execution id="d8653f01-0de9-44b3-9621-6c1ab6c40b59" />
+      <TestMethod codeBase="c:/users/user22/documents/visual studio 2010/Projects/ClassLibrary1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestConvert3" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="04c38faf-ded8-ae35-63cc-dfb10a7b70b3" executionId="d8653f01-0de9-44b3-9621-6c1ab6c40b59" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="18012c3c-22fd-852e-cec8-a03d0752798e" executionId="adef0319-8cbd-41e7-a07e-64cda954d856" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8517bb1b-dafd-0f1c-8c9c-395e56cdc110" executionId="5ce94ea9-60fb-4f52-b655-1b31b38d36cc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a834ec8a-2c68-3b32-a281-2c8d6d5f035b" executionId="c3a9b983-9f24-4dcf-bffc-9c0deff4cc23" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e8761801-f534-73cc-0499-fd2bffebba56" executionId="9effa7a4-909a-4fb4-acc0-f9533941d190" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d8653f01-0de9-44b3-9621-6c1ab6c40b59" testId="04c38faf-ded8-ae35-63cc-dfb10a7b70b3" testName="TestConvert3" computerName="USER22-PC" duration="00:00:00.0478246" startTime="2013-03-15T16:55:24.4482447-03:00" endTime="2013-03-15T16:55:24.8162657-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8653f01-0de9-44b3-9621-6c1ab6c40b59">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   en TestProject1.UnitTest1.TestConvert3() en c:\users\user22\documents\visual studio 2010\Projects\ClassLibrary1\TestProject1\UnitTest1.cs:línea 35
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="adef0319-8cbd-41e7-a07e-64cda954d856" testId="18012c3c-22fd-852e-cec8-a03d0752798e" testName="TestConvert5" computerName="USER22-PC" duration="00:00:00.0010426" startTime="2013-03-15T16:55:24.8192659-03:00" endTime="2013-03-15T16:55:24.8282664-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="adef0319-8cbd-41e7-a07e-64cda954d856">
+    </UnitTestResult>
+    <UnitTestResult executionId="5ce94ea9-60fb-4f52-b655-1b31b38d36cc" testId="8517bb1b-dafd-0f1c-8c9c-395e56cdc110" testName="TestConvert4" computerName="USER22-PC" duration="00:00:00.0015991" startTime="2013-03-15T16:55:24.8302665-03:00" endTime="2013-03-15T16:55:24.8342667-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5ce94ea9-60fb-4f52-b655-1b31b38d36cc">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   en TestProject1.UnitTest1.TestConvert4() en c:\users\user22\documents\visual studio 2010\Projects\ClassLibrary1\TestProject1\UnitTest1.cs:línea 43
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c3a9b983-9f24-4dcf-bffc-9c0deff4cc23" testId="a834ec8a-2c68-3b32-a281-2c8d6d5f035b" testName="TestConvert2" computerName="USER22-PC" duration="00:00:00.0067245" startTime="2013-03-15T16:55:24.8392670-03:00" endTime="2013-03-15T16:55:24.8502677-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c3a9b983-9f24-4dcf-bffc-9c0deff4cc23">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   en TestProject1.UnitTest1.TestConvert2() en c:\users\user22\documents\visual studio 2010\Projects\ClassLibrary1\TestProject1\UnitTest1.cs:línea 27
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9effa7a4-909a-4fb4-acc0-f9533941d190" testId="e8761801-f534-73cc-0499-fd2bffebba56" testName="TestConvert1" computerName="USER22-PC" duration="00:00:00.0002192" startTime="2013-03-15T16:55:24.8552679-03:00" endTime="2013-03-15T16:55:24.8582681-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9effa7a4-909a-4fb4-acc0-f9533941d190">
+    </UnitTestResult>
+  </Results>
+</TestRun>
